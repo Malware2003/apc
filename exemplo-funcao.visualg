@@ -1,0 +1,18 @@
+algoritmo "ExemploDeFuncao"
+
+funcao somar(a: inteiro, b: inteiro): inteiro
+
+  inicio
+    retorne a + b
+
+fimfuncao
+
+var
+  resultado: inteiro
+
+inicio
+
+  resultado <- somar(10, 6)
+  escreval("O resultado retornado foi: ", resultado)
+
+fimalgoritmo
