@@ -1,0 +1,17 @@
+algoritmo "operacaoLogicas"
+
+var
+  idade: inteiro
+  maioridadeCivil: inteiro
+  maioridadePenal: inteiro
+
+inicio
+  idade <- 18
+  maioridadeCivil <- 21
+  maioridadePenal <- 18
+
+  escreval("A idade é maior ou igual que todas as maioridades? ", idade >= maioridadeCivil E idade >= maioridadePenal)
+  escreval("A idade é maior ou igual que todas as maioridades? ", idade >= maioridadeCivil OU idade >= maioridadePenal)
+  escreval("A idade é menor ou igual que ambas as maioridades? ", NAO(idade <= maioridadePenal E idade <= maioridadePenal))
+
+fimalgoritmo
